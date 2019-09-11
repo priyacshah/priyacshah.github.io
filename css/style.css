@@ -1,0 +1,127 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+canvas {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.cartoon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+.titles {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  right: 0;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: white;
+  font-family: 'Lobster', serif;
+  letter-spacing: 2px;
+  pointer-events: none;
+  font-weight: 500;
+  border: 0px;
+  margin: 0px;
+  text-align: center;
+  /*color: #7a9fd0;*/
+}
+
+a {
+  text-decoration: none;
+  /*color: #ffff66;*/
+  color: #F50057;
+}
+
+p {
+  font-family: 'Lobster', serif;
+  color: black;
+  font-size: 1.8em;
+  text-align: center;
+  color: white;
+}
+
+.bullets {
+  color: white;
+}
+
+.social {
+  color: #F50057;
+}
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid purple; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 2px; /* Adjust as needed */
+
+  animation: 
+    typing 3.5s steps(50, end),
+    blink-caret .75s step-end infinite;
+}
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) 
+*/
+.typewriter h1 {
+  font-size: 2em;
+ }
+}
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ 
+
+.typewriter h1 {
+  font-size: 4.5em;
+ }
+ }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+.typewriter h1 {
+  font-size: 2.5em;
+ }
+ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+.typewriter h1 {
+  font-size: 4.5em;
+ }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+.typewriter h1 {
+  font-size: 4.5em;
+ }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+.typewriter h1 {
+  font-size: 4.5em;
+ }
+}
+
+/* The typing effect */
+@-webkit-keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@-webkit-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #F50057; }
+}
+.typewriter {
+    display: inline-flex;
+}
+
+/*canvas {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+}*/
