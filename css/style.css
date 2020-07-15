@@ -15,12 +15,12 @@ canvas {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 .titles {
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: 0;
   right: 0;
 }
